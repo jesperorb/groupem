@@ -1,6 +1,6 @@
 {
   "name": "groupem",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Split list of things into group of things",
   "main": "cli.js",
   "scripts": {

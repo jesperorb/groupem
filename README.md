@@ -22,6 +22,7 @@ Usage
   --size,     -s   size of groups
   --random,   -r   randomize array
   --format,   -f   output format: 'md' or 'txt'
+  --terminal  -t   output to terminal instead of file
 
   Examples:
   # Split list into groups of 4
@@ -67,7 +68,7 @@ npm test
 ## Todo
 
 * Make so you can name the output file
-* Choose between terminal output or file output
 * More error handling regarding path
 * Clean up main function (less `if/else`-branches in main function)
 * More testing? Testing I/O, relevant?
+* 

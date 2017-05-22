@@ -10,6 +10,7 @@ const cli = meow(`
   --size,     -s   size of groups
   --random,   -r   randomize array
   --format,   -f   output format: 'md' or 'txt'
+  --terminal  -t   outputs to terminal instead of file
 
   Examples:
   # Split list into
@@ -24,7 +25,8 @@ const cli = meow(`
     alias: {
       f: 'format',
       r: "random",
-      s: "size"
+      s: "size",
+      t: "terminal"
   }
 });
 
